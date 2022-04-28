@@ -1,0 +1,1 @@
+find . -name "*.sh" | rev | cut -f1 -d "/" | rev | sed 's/.sh//g'
